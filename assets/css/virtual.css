@@ -21,7 +21,7 @@
  */
 
 :root {
-    --theme-red: #33546D;
+    --theme-red: #446063;
     --theme-blue: #2960f7;
     --theme-green: #8cc63f;
     --theme-orange: #fd7e14;
@@ -330,10 +330,10 @@ a:hover, a:active {
 }
 
 .bg-theme-red {
-    background-color: #33546D !important;
+    background-color: #446063!important;
 }
 
-.bg-theme-blue {#33546D
+.bg-theme-blue {#446063
     background-color: #2960f7 !important;
 }
 
@@ -350,7 +350,7 @@ a:hover, a:active {
 }
 
 .fg-theme-red {
-    color: #33546D !important;
+    color: #446063!important;
 }
 
 .fg-theme-blue {
@@ -1111,63 +1111,65 @@ a:hover, a:active {
 
 /* Theme red */
 .theme-red .bg-theme {
-    background-color: #33546D !important;
+    background-color: #446063!important;
 }
 
 .theme-red .fg-theme {
-    color: #33546D !important;
+    color: #CCD4DD!important;
 }
-
+.fg-text {
+    color: #141E1D!important;
+}
 .theme-red .btn-theme {
-    background-color: #33546D;
+    background-color: #446063;
     color: #fff;
 }
 
 .theme-red .btn-theme:hover {
-    background-color: #33546D;
+    background-color: #446063;
     color: #fff;
 }
 
 .theme-red .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #33546D;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #446063;
 }
 
 .theme-red .btn-theme-outline {
-    color: #33546D;
-    box-shadow: 0 0 0 2px #33546D;
+    color: #446063;
+    box-shadow: 0 0 0 2px #446063;
 }
 
 .theme-red .btn-theme-outline:hover {
-    background-color: #33546D;
+    background-color: #446063;
     color: #fff;
 }
 
 .theme-red .btn-theme-outline:focus {
-    background-color: #33546D;
+    background-color: #446063;
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #33546D;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #446063;
 }
 
 .theme-red .btn-fab {
-    background-color: #33546D;
+    background-color: #446063;
     color: #fff;
 }
 
 .theme-red .btn-fab:hover {
-    background-color: #33546D;
+    background-color: #446063;
     color: #fff;
 }
 
 .theme-red .progress {
-    box-shadow: 0 0 0 2px #33546D;
+    box-shadow: 0 0 0 2px #446063;
 }
 
 .theme-red .progress-bar {
-    background-color: #33546D;
+    background-color: #446063;
 }
 
 .theme-red .theme-list li::before {
-    border-color: #33546D;
+    border-color: #446063;
 }
 
 

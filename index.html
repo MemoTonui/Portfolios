@@ -37,7 +37,7 @@
   
 
   
-  <div class="vg-page page-home" id="home" style="background-image: url(./assets/img/bg_image_3.jpg)">
+  <div class="vg-page page-home" id="home" >
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
@@ -50,11 +50,9 @@
             <li class="nav-item active">
               <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
             </li>
+            
             <li class="nav-item">
-              <a href="#about" class="nav-link" data-animate="scrolling">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#service" class="nav-link" data-animate="scrolling">Service</a>
+              <a href="#service" class="nav-link" data-animate="scrolling">Services</a>
             </li>
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
@@ -70,37 +68,260 @@
       </div>
     </div> <!-- End Navbar -->
     <!-- Caption header -->
-    <div class="caption-header text-center wow zoomInDown">
-      <h5 class="fw-normal">Welcome</h5>
-      <h1 class="fw-medium mb-4">I'm <b class="fg-theme fw-medium">Linda</b> Tonui</h1>
-      <div class="badge">Android and Front-End Developer & UI/UX Designer</div>
+    <div class="caption-header  wow zoomInDown">
+      <div class="container py-5">
+        <div class="row">
+          
+          <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+            <h1 class="">Linda Tonui</h1>
+            <h5 class="fg-text mb-3">Android and Front-End Developer & UI/UX Designer</h5>
+            <p class="text-muted">Software Engineer with a 2-year experience in various fields in development. I major in android development, front end web development and UI/UX design.
+               I am very headstrong and ambitious with a passion in problem-solving. The attention I pay to details makes me a great Software Engineer.</p>
+            <ul class="theme-list">
+              <li><b>From:</b> Nairobi, Kenya</li>
+              <li><b>Lives In:</b> Nairobi, Kenya</li>      </ul>
+            <div class="wow fadeInUp mt-14">
+              <a href="https://github.com/MemoTonui" class="btn btn-theme-outline">VIEW WORK</a>
+            </div>
+          </div>
+          <div class="col-md-4 py-5">
+            
+          </div>
+        </div>
+      </div>
     </div> <!-- End Caption header -->
     <div class="floating-button"><span class="ti-mouse"></span></div>
   </div>
   
+  <!--ABOUT SECTION-->
   <div class="vg-page page-about" id="about">
-    <div class="container py-5">
-      <div class="row">
-        
-        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-          <h1 class="fw-light">Linda Tonui</h1>
-          <h5 class="fg-theme mb-3">Android and Front-End Developer & UI/UX Designer</h5>
-          <p class="text-muted">Software Engineer with a 2-year experience in various fields in development. I major in android development, front end web development and UI/UX design.
-             I am very headstrong and ambitious with a passion in problem-solving. The attention I pay to details makes me a great Software Engineer.</p>
-          <ul class="theme-list">
-            <li><b>From:</b> Nairobi, Kenya</li>
-            <li><b>Lives In:</b> Nairobi, Kenya</li>
-            <li><b>Gender:</b> Female</li>
-          </ul>
-        
+   
+
+    <div class="vg-page page-service" id="service">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Services</div>
         </div>
-        <div class="col-md-4 py-5">
-          <div class="img-place wow fadeInUp">
-            <img src="./assets/img/Linda.jfif"  alt="">
+        <h1 class="fw-normal text-center wow fadeInUp">What can I do?</h1>
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card card-service wow fadeInUp">
+              <div class="icon">
+                <span class="ti-paint-bucket"></span>
+              </div>
+              <div class="caption">
+                <h4 class="fg-text">Web/Mobile Design</h4>
+                <p>I make clean, simple and clear designs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card card-service wow fadeInUp">
+              <div class="icon">
+                <span class="ti-mobile"></span>
+              </div>
+              <div class="caption">
+                <h4 class="fg-text">Android Development</h4>
+                <p>Develop android applications using java</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card card-service wow fadeInUp">
+              <div class="icon">
+                <span class="ti-vector"></span>
+              </div>
+              <div class="caption">
+                <h4 class="fg-text">UI/UX Design</h4>
+                <p>Develop high fidelity designs based on user requirements using Figma</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card card-service wow fadeInUp">
+              <div class="icon">
+                <span class="ti-desktop"></span>
+              </div>
+              <div class="caption">
+                <h4 class="fg-text">Web Development</h4>
+                <p>Develop web applications using React JavaScript</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+  
+    
+   
+    
+    <!-- Portfolio page -->
+    <div class="vg-page page-portfolio" id="portfolio">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Portfolio</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">Have a look at my work</h1>
+        <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
+          <button class="btn btn-theme-outline selected" data-filter="*">All</button>
+          <button class="btn btn-theme-outline" data-filter=".apps">Mobile Apps</button>
+          <button class="btn btn-theme-outline" data-filter=".web">Web Apps</button>
+          <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
+          
+        </div>
+  
+        <div class="gridder my-3">
+          <div class="grid-item apps ui-ux wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/Gist.png" data-fancybox data-caption="<h5 class='fg-theme'>Gist Shop App</h5> <p>Shopping</p>">
+              <img src="./assets/img/projects/Gist.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Gist Shop App</h5>
+                <p>Shopping</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item apps ui-ux wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/Flash Message.png" data-fancybox data-caption="<h5 class='fg-theme'>Flash Message</h5> <p>Flash Message</p>">
+              <img src="./assets/img/projects/Flash Message.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Flash Message</h5>
+                <p>Shopping</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item apps ui-ux wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/BakeApp.png" data-fancybox data-caption="<h5 class='fg-theme'>Online Bakery</h5> <p>Online Bakery</p>">
+              <img src="./assets/img/projects/BakeApp.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Bakery</h5>
+                <p>Food</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item apps  ui-ux wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/Chat.png" data-fancybox data-caption="<h5 class='fg-theme'>Chat Interface</h5> <p>Chat Interface</p>">
+              <img src="./assets/img/projects/Chat.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Chat</h5>
+                <p>Social Media</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux wow apps zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/LeaderBoard.png" data-fancybox data-caption="<h5 class='fg-theme'>Leader Board</h5> <p>Gaming Leader Board</p>">
+              <img src="./assets/img/projects/LeaderBoard.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Leader Board</h5>
+                <p>Entertainment</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux apps wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/Music Presentation.png" data-fancybox data-caption="<h5 class='fg-theme'>Music App</h5> <p>Entertainment</p>">
+              <img src="./assets/img/projects/Music Presentation.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Music App</h5>
+                <p>Entertainment</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux apps wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/On_Off.png" data-fancybox data-caption="<h5 class='fg-theme'>Switch Button Concept</h5> <p>Dark Mode Concept</p>">
+              <img src="./assets/img/projects/On_Off.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Switch Button Concept</h5>
+                <p>Switch Button Concept</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux apps wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/Profile.png" data-fancybox data-caption="<h5 class='fg-theme'>Profile Page Concept</h5> <p>Social Media</p>">
+              <img src="./assets/img/projects/Profile.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Profile Page Concept</h5>
+                <p>Social Media</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux apps wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/ProfileSettings.png" data-fancybox data-caption="<h5 class='fg-theme'>Profile Settings Concept</h5> <p>Social Media</p>">
+              <img src="./assets/img/projects/ProfileSettings.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Profile Settings Concept</h5>
+                <p>Social Media</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux web wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/Shop.png" data-fancybox data-caption="<h5 class='fg-theme'>Online Jewellery Shop </h5> <p>Business</p>">
+              <img src="./assets/img/projects/Shop.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Online Jewellery Shop </h5>
+                <p>Business</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux apps  wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/SocialMedia.png" data-fancybox data-caption="<h5 class='fg-theme'>Social Media App </h5> <p>Social Media</p>">
+              <img src="./assets/img/projects/SocialMedia.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Social Media App </h5>
+                <p>Social Media </p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux wow apps zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/LISA.png" data-fancybox data-caption="<h5 class='fg-theme'>LISA</h5> <p>Mental Health</p>">
+              <img src="./assets/img/projects/LISA.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">LISA</h5>
+                <p>Mental Health</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui-ux web wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/Lifchat.png" data-fancybox data-caption="<h5 class='fg-theme'>Lifchat</h5> <p>Charity, Donations</p>">
+              <img src="./assets/img/projects/Lifchat.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Lifchat</h5>
+                <p>Charity, Donations</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  web wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/MamaMia.png" data-fancybox data-caption="<h5 class='fg-theme'>Mama Mia Pizza Parlour</h5> <p>Food, Restaurants</p>">
+              <img src="./assets/img/projects/MamaMia.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Mama Mia Pizza Parlour </h5>
+                <p>Food, Restaurants</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui-ux wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/aires.png" data-fancybox data-caption="<h5 class='fg-theme'>AIRES</h5> <p>Agriculture</p>">
+              <img src="./assets/img/projects/aires.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">AIRES</h5>
+                <p>Agriculture</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item  ui-ux web wow zoomIn">
+            <div class="img-place" data-src="../assets/img/projects/hero.png" data-fancybox data-caption="<h5 class='fg-theme'>Hero Squad</h5> <p>Entertainment</p>">
+              <img src="./assets/img/projects/hero.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Hero Squad</h5>
+                <p>Entertainment</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End gridder -->
+        <div class="text-center wow fadeInUp">
+          <a href="https://github.com/MemoTonui" class="btn btn-theme-outline">LOAD MORE</a>
+        </div>
+      </div>
+    </div> <!-- End Portfolio page -->
+    
+  <!--EDUCATION AND WORK EXPERIENCE-->  
     <div class="container pt-5">
       <div class="row">
         <div class="col-md-6 wow fadeInRight">
@@ -110,7 +331,7 @@
               <div class="title">2020</div>
               <div class="details">
                 <h5>Software Immersive, Android Stack</h5>
-                <small class="fg-theme">Moringa School</small>
+                <small class="fg-text">Moringa School</small>
                 <p>Moringa Certification in Software Development</p>
               </div>
             </li>
@@ -118,7 +339,7 @@
               <div class="title">2017</div>
               <div class="details">
                 <h5>Computer Science</h5>
-                <small class="fg-theme">Egerton University</small>
+                <small class="fg-text">Egerton University</small>
                 <p>A Bachelor's Degree in Computer Science</p>
               </div>
             </li>
@@ -126,7 +347,7 @@
               <div class="title">2013</div>
               <div class="details">
                 <h5>Kenya Certificate Of Secondary Education</h5>
-                <small class="fg-theme">Nakuru Girls' High School</small>
+                <small class="fg-text">Nakuru Girls' High School</small>
                 <p>High school education</p>
               </div>
             </li>
@@ -139,7 +360,7 @@
               <div class="title">2022 - Current</div>
               <div class="details">
                 <h5>Software Developer</h5>
-                <small class="fg-theme">GOIP Limited</small>
+                <small class="fg-text">GOIP Limited</small>
                 <p>I work as a Solution Deployment Team Leader. I am responsible for software development of existing and new systems,
                    both front end and backend. This includes ensuring ease of use of the solution, executing the product development plan 
                    and lifecycle,developing and sustaining appropriate structures for consultation, decision making and communication with
@@ -151,7 +372,7 @@
               <div class="title">2022 </div>
               <div class="details">
                 <h5>Freelance UI-UX Designer and Android Developer</h5>
-                <small class="fg-theme">Graph Technologies</small>
+                <small class="fg-text">Graph Technologies</small>
                 <p>The assignment was to revamp the UI of an Android 
                   Application and Web Portals and improve the User 
                   Experience of an application. I designed the user 
@@ -163,7 +384,7 @@
               <div class="title">2021 </div>
               <div class="details">
                 <h5>Freelance UI-UX Designer and Android Developer</h5>
-                <small class="fg-theme">Reggy Codas</small>
+                <small class="fg-text">Reggy Codas</small>
                 <p>Designed and developed applications using figma and android java respectively. </p>
               </div>
             </li>
@@ -171,7 +392,7 @@
               <div class="title">2021</div>
               <div class="details">
                 <h5>Freelance UI-UX Designer</h5>
-                <small class="fg-theme">AIRES</small>
+                <small class="fg-text">AIRES</small>
                 <p>Translated user requirements into high fidelity user centered designs and user flows for both mobile and web devices
                   The product being designed was an agricultural advisor and tracker that would help farmers know what to plant on their farms and when based on the season and their soil type. 
                 </p>
@@ -181,7 +402,7 @@
               <div class="title">2021</div>
               <div class="details">
                 <h5>Freelance UI-UX Designer and Web Developer</h5>
-                <small class="fg-theme">Lifchat</small>
+                <small class="fg-text">Lifchat</small>
                 <p>Created high fidelity designs from user requirements 
                   for a web application and an admin dashboard. I also 
                   developed the admin dashboard using material UI 
@@ -193,7 +414,7 @@
               <div class="title">2020</div>
               <div class="details">
                 <h5> Freelance UI-UX Designer and Front-End Developer </h5>
-                <small class="fg-theme">FARMAZAO</small>
+                <small class="fg-text">FARMAZAO</small>
                 <p>I translated user requirements into high fidelity user 
                   centered designs and user flows for both mobile and 
                   web devices. I also developed the admin dashboard 
@@ -207,7 +428,7 @@
               <div class="title">2020</div>
               <div class="details">
                 <h5>Freelance UI-UX Designer and Web Developer</h5>
-                <small class="fg-theme">TIE HUB</small>
+                <small class="fg-text">TIE HUB</small>
                 <p>Created high fidelity designs for the Tiehub website 
                   and developed it. The Tie hub website was basically 
                   an informational static website telling a user more 
@@ -220,231 +441,7 @@
     </div>
   </div>
   
-  <div class="vg-page page-service" id="service">
-    <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Services</div>
-      </div>
-      <h1 class="fw-normal text-center wow fadeInUp">What can I do?</h1>
-      <div class="row mt-5">
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-paint-bucket"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">Web/Mobile Design</h4>
-              <p>I make clean, simple and clear designs</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-mobile"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">Android Development</h4>
-              <p>Develop android applications using java</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-vector"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">UI/UX Design</h4>
-              <p>Develop high fidelity designs based on user requirements using Figma</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-desktop"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">Web Development</h4>
-              <p>Develop web applications using React JavaScript</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  
  
-  
-  <!-- Portfolio page -->
-  <div class="vg-page page-portfolio" id="portfolio">
-    <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Portfolio</div>
-      </div>
-      <h1 class="text-center fw-normal wow fadeInUp">Have a look at my work</h1>
-      <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
-        <button class="btn btn-theme-outline selected" data-filter="*">All</button>
-        <button class="btn btn-theme-outline" data-filter=".apps">Mobile Apps</button>
-        <button class="btn btn-theme-outline" data-filter=".web">Web Apps</button>
-        <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
-        
-      </div>
-
-      <div class="gridder my-3">
-        <div class="grid-item apps ui-ux wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/Gist.png" data-fancybox data-caption="<h5 class='fg-theme'>Gist Shop App</h5> <p>Shopping</p>">
-            <img src="./assets/img/projects/Gist.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Gist Shop App</h5>
-              <p>Shopping</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item apps ui-ux wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/Flash Message.png" data-fancybox data-caption="<h5 class='fg-theme'>Flash Message</h5> <p>Flash Message</p>">
-            <img src="./assets/img/projects/Flash Message.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Flash Message</h5>
-              <p>Shopping</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item apps ui-ux wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/BakeApp.png" data-fancybox data-caption="<h5 class='fg-theme'>Online Bakery</h5> <p>Online Bakery</p>">
-            <img src="./assets/img/projects/BakeApp.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Bakery</h5>
-              <p>Food</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item apps  ui-ux wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/Chat.png" data-fancybox data-caption="<h5 class='fg-theme'>Chat Interface</h5> <p>Chat Interface</p>">
-            <img src="./assets/img/projects/Chat.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Chat</h5>
-              <p>Social Media</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux wow apps zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/LeaderBoard.png" data-fancybox data-caption="<h5 class='fg-theme'>Leader Board</h5> <p>Gaming Leader Board</p>">
-            <img src="./assets/img/projects/LeaderBoard.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Leader Board</h5>
-              <p>Entertainment</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux apps wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/Music Presentation.png" data-fancybox data-caption="<h5 class='fg-theme'>Music App</h5> <p>Entertainment</p>">
-            <img src="./assets/img/projects/Music Presentation.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Music App</h5>
-              <p>Entertainment</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux apps wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/On_Off.png" data-fancybox data-caption="<h5 class='fg-theme'>Switch Button Concept</h5> <p>Dark Mode Concept</p>">
-            <img src="./assets/img/projects/On_Off.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Switch Button Concept</h5>
-              <p>Switch Button Concept</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux apps wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/Profile.png" data-fancybox data-caption="<h5 class='fg-theme'>Profile Page Concept</h5> <p>Social Media</p>">
-            <img src="./assets/img/projects/Profile.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Profile Page Concept</h5>
-              <p>Social Media</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux apps wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/ProfileSettings.png" data-fancybox data-caption="<h5 class='fg-theme'>Profile Settings Concept</h5> <p>Social Media</p>">
-            <img src="./assets/img/projects/ProfileSettings.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Profile Settings Concept</h5>
-              <p>Social Media</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux web wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/Shop.png" data-fancybox data-caption="<h5 class='fg-theme'>Online Jewellery Shop </h5> <p>Business</p>">
-            <img src="./assets/img/projects/Shop.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Online Jewellery Shop </h5>
-              <p>Business</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux apps  wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/SocialMedia.png" data-fancybox data-caption="<h5 class='fg-theme'>Social Media App </h5> <p>Social Media</p>">
-            <img src="./assets/img/projects/SocialMedia.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Social Media App </h5>
-              <p>Social Media </p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux wow apps zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/LISA.png" data-fancybox data-caption="<h5 class='fg-theme'>LISA</h5> <p>Mental Health</p>">
-            <img src="./assets/img/projects/LISA.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">LISA</h5>
-              <p>Mental Health</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item ui-ux web wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/Lifchat.png" data-fancybox data-caption="<h5 class='fg-theme'>Lifchat</h5> <p>Charity, Donations</p>">
-            <img src="./assets/img/projects/Lifchat.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Lifchat</h5>
-              <p>Charity, Donations</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  web wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/MamaMia.png" data-fancybox data-caption="<h5 class='fg-theme'>Mama Mia Pizza Parlour</h5> <p>Food, Restaurants</p>">
-            <img src="./assets/img/projects/MamaMia.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Mama Mia Pizza Parlour </h5>
-              <p>Food, Restaurants</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item ui-ux wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/aires.png" data-fancybox data-caption="<h5 class='fg-theme'>AIRES</h5> <p>Agriculture</p>">
-            <img src="./assets/img/projects/aires.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">AIRES</h5>
-              <p>Agriculture</p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item  ui-ux web wow zoomIn">
-          <div class="img-place" data-src="../assets/img/projects/hero.png" data-fancybox data-caption="<h5 class='fg-theme'>Hero Squad</h5> <p>Entertainment</p>">
-            <img src="./assets/img/projects/hero.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Hero Squad</h5>
-              <p>Entertainment</p>
-            </div>
-          </div>
-        </div>
-      </div> <!-- End gridder -->
-      <div class="text-center wow fadeInUp">
-        <a href="https://github.com/MemoTonui" class="btn btn-theme">Load More</a>
-      </div>
-    </div>
-  </div> <!-- End Portfolio page -->
-  
-  
 
   
   <!-- Footer -->
